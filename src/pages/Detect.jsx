@@ -228,7 +228,6 @@ const Detect = () => {
       const canvasElement = canvasRef.current;
       const canvasCtx = canvasElement.getContext('2d');
 
-      // ✅ Set proper canvas size
       canvasElement.width = results.image.width;
       canvasElement.height = results.image.height;
 
